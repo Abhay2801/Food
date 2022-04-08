@@ -104,7 +104,7 @@ self.addEventListener('activate', () => {
 
 
 
-var cacheName = 'geeks-cache-v1';
+var cacheName = 'about-icon-1';
 
 // Call Fetch Event
 self.addEventListener('fetch', e => {
