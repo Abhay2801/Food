@@ -104,9 +104,7 @@ self.addEventListener('activate', () => {
 
 
 
-var cacheName = 'about-icon-1';
-
-// Call Fetch Event
+var cacheName = 'blog-img-1.jpg';
 self.addEventListener('fetch', e => {
     console.log('Service Worker: Fetching');
     e.respondWith(
